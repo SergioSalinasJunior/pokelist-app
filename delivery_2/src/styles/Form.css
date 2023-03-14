@@ -1,0 +1,35 @@
+form {
+    width: 70%;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 10px auto;
+    background-color:  rgb(137, 137, 137);
+    color: white;
+
+    border-radius: 15px;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+input {
+    margin: 10px auto;
+    padding: 5px 0;
+    display: block;
+    border-radius: 10px;
+    border-color: black;
+}
+
+label {
+    margin: 0 10px;
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color:brown;
+    color: white;
+}
